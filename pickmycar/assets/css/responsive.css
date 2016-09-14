@@ -1,0 +1,327 @@
+/*****************************************************
+Layout: more than 1370px
+******************************************************/
+@media only screen and (min-width: 1370px) {
+
+/*START homepage*/
+.promo-home h2 {
+  font-size: 40px;
+  margin-bottom: 5%;
+  margin-top: 2%;
+}
+.promo-home > img {
+  margin-bottom: 4%;
+  max-height: 310px;
+}
+.contact-btn a {
+  font-size: 30px;
+  padding: 2px;
+  width: 150px;
+}
+.btn-global a,
+.btn-global input,
+.btn-global button{
+  font-size: 32px;
+  padding: 5px;
+  width: 270px;
+}
+/*START homepage*/
+	
+/*START car-type.html*/	
+.page-title h2 {
+	font-size: 46px;
+	margin-bottom: 4%;
+	margin-top: 3%;
+}
+/*END car-type.html*/
+	
+/*result.html*/
+.results > img {
+  max-height: 330px;
+}
+
+/*buttons fix*/
+.back-btn a {
+  margin-top: 6%;
+}
+.btn-book > a {
+  margin-top: 5%;
+}
+.brands-submit button {
+  margin-top: 10%;
+}
+.next-back-btn > a {
+  margin: 8% 10px 1%;
+}
+
+
+
+}
+
+
+/*****************************************************
+Layout: 992px - 1200px
+******************************************************/
+@media only screen and (max-width: 1200px) {
+.single-budget {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.single-budget h3 {
+  font-size: 18px;
+}
+
+
+}
+
+
+/*****************************************************
+ Tablet Layout: 768px- 991px 
+******************************************************/
+@media only screen and (max-width: 991px) {
+/*index.html*/
+.promo-home h2 {
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.promo-home > img {
+  margin-bottom: 5%;
+}
+.btn-global a,
+.btn-global input{
+  margin-bottom: 2%;
+}
+	
+/*car-type.html*/
+.page-title h2 {
+  font-size: 36px;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.choice-box a {
+  margin-bottom: 60px;
+}
+	
+/*budget.html*/
+.single-budget {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/*info.html*/
+.info-page-title {
+  margin-bottom: 5%;
+}
+.info-page-title h2 {
+  margin-top: 20px;
+}
+
+/*processing.html*/
+.process-arrow > img {
+  margin-top: 28%;
+}
+
+	
+
+}
+
+
+
+/*****************************************************
+ Mobile Layout: 481px to 767px
+******************************************************/
+@media only screen and (max-width: 767px) {
+.no-padding-right {padding-right: 15px;}
+.no-padding-left {padding-left: 15px;}
+.no-padding {padding-left: 15px;padding-right: 15px;}
+	
+.logo {
+  padding-left: 15px;
+}
+.contact-btn {
+  padding-right: 15px;
+  padding-top: 25px;
+  text-align: center;
+}
+.contact-btn a {
+  font-size: 28px;
+  width: 150px;
+}
+.promo-home h2 {
+  font-size: 26px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.btn-global a,
+.btn-global input,
+.btn-global button{
+  font-size: 25px;
+  margin-bottom: 5%;
+  padding: 2px;
+  width: 220px;
+}
+	
+/*car-type.html*/	
+.page-title h2 {
+  font-size: 26px;
+  margin-bottom: 12%;
+  margin-top: 12%;
+}
+	
+/*budget.html*/
+.back-btn {
+  margin-bottom: 10%;
+  margin-top: 3%;
+}
+
+/*fuel.html*/
+.single-fuel.col-sm-4 {
+  width: inherit;
+}
+.single-fuel.col-sm-offset-1 {
+  margin-left: 0;
+}
+
+/*features.html*/
+.single-feature a {
+  margin-bottom: 30px;
+}
+.next-back-btn {
+  margin-bottom: 10%;
+}
+	
+	
+/*info.html*/
+.info-page-title {
+  margin-bottom: 10%;
+}
+.info-page-title h2 {
+  font-size: 25px;
+}
+.form-item {
+  font-size: 18px;
+  margin-bottom: 8%;
+  padding: 1.5% 10px;
+}
+.form-item label {
+  width: 25%;
+}
+.form-item input {
+  width: 72%;
+}
+	
+/*info-otp.html*/
+.one-time-pass {
+  text-align: center;
+}	
+.one-time-pass button {
+  font-size: 15px;
+  margin-bottom: 8%;
+  padding: 5px 20px;
+  text-align: center;
+  width: 160px;
+}
+	
+/*processing.html*/	
+.process-title h2 {
+  font-size: 26px;
+  margin-top: 20px;
+}
+.process-title > p {
+  font-size: 15px;
+}
+.process-title {
+  margin-bottom: 12%;
+}
+.process-btn > a {
+  margin-top: 12%;
+  padding: 5px;
+}
+.process-btn img {
+  max-height: 35px;
+}
+.process-btn > p {
+  font-size: 14px;
+}
+	
+/*result.html*/	
+.results > img {
+  margin-bottom: 10%;
+  max-height: inherit;
+}
+.btn-book {
+  text-align: center;
+}
+.btn-book > a {
+  margin-bottom: 12%;
+}
+	
+/*search page*/
+.search-title h2 {
+  font-size: 22px;
+  margin-bottom: 12%;
+}
+.full-input textarea {
+  margin-bottom: 6%;
+}
+.pull-right.col-md-3.col-sm-6  {
+  float: none !important;
+}
+.brands-submit button {
+  margin-bottom: 15%;
+}
+.search-result {
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+.search-result img {
+  right: 5px;
+}
+	
+/*search-again.html*/
+.suggested-car {
+  margin-top: 8%;
+}
+.suggested-car-details > h2 {
+  font-size: 26px;
+  text-align: center;
+}
+.popular-car > h2 {
+  font-size: 26px;
+  text-align: center;
+}
+.suggested-car-details > h4 {
+  font-size: 14px;
+}
+.suggested-car-details h4 span {
+  margin-right: 20px;
+  text-align: left;
+  width: inherit;
+}
+.suggested-car-details .btn-global > a {
+  background: #f39019 none repeat scroll 0 0;
+  box-shadow: none;
+  font-size: 20px;
+  margin-top: 3%;
+  padding: 2px 8px;
+  text-align: center;
+  width: inherit;
+}
+
+	
+.search-again-submit > input {
+  margin: 3% 0 15%;
+}
+	
+}
+
+
+
+/*****************************************************
+Mobile Layout: 321px to 480px
+******************************************************/
+@media only screen and (max-width: 480px) {
+	
+}
